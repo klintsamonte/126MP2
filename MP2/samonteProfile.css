@@ -1,0 +1,143 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: url(background.jpg);
+	background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-color: white;
+	width: 110%;
+}
+
+#parent {
+    position: relative;
+    width: 100%;
+}
+
+.table{
+	display:table;
+    margin-right:auto;
+    margin-left:auto;
+    width:100%;
+}
+
+#main {
+	display: inline-block;
+	position: relative;
+	width: 50%;
+    height:  50%;
+}
+#main img{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.01), 0 3px 6px rgba(0,0,0,0.30);
+}
+
+#more {
+	display: inline-block;
+	position: absolute;
+}
+
+#more img{
+	background-color: rgba(255, 255, 255, .09);
+	margin-left: 20px;
+	top: 70px;
+	border-color: white;
+	float:left;
+}
+
+#profile {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	display:block;
+}
+
+#details {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	display:block;
+}
+
+#education {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	display:block;
+}
+
+h1 {
+	background-color: rgba(255, 255, 255, .4);
+	text-align: center;
+	color: black;
+    font-family: helvetica;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+    font-family: verdana;
+}
+
+h3 {
+	background-color: rgba(255, 255, 255, .4);
+	text-align: center;
+	color: black;
+    font-family: verdana;
+}
+
+h4 {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	color: #FFDAB9;
+	font-size: 20px; 
+    font-family: "Lucida Sans Unicode";
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	color: #FFDAB9;
+	font-size: 18px;
+    font-family: "Lucida Sans Unicode";
+}
+
+.show:hover{
+	position: relative;
+	top: 100px;
+	left: 10px;
+	width: 300px;
+	height: auto;
+	display: block;
+	z-index: 999;
+}
+
+* {
+color: black;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+	text-align: center;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+}
+
+figure:hover img {
+    opacity: .7;
+}
+
+figure:hover figcaption {
+    display: block;
+}
